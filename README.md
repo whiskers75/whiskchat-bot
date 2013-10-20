@@ -1,4 +1,4 @@
-whiskchat-bot
-=============
+WhiskChat Bot API
+-----
 
-WhiskChat bot API logic
+Use to make WhiskChat bots! http://blog.whiskers75.com/whiskchatapi/

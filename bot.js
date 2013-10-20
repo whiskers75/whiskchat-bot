@@ -61,7 +61,7 @@ socket.on('connect', function() {
 	socket.emit('chat', {room: 'main', message: '!; connect ' + config.username + '/' + config.owner});
 	setTimeout(function() {
 	    hooks.username = data.username;
-            chat(hooks.room, '[b]:) ' + hooks.id + ' initialized! (using [link=http://whiskers75.com/botapi]WhiskChat Bot API[/link])[/b]', '77216F');
+            chat(hooks.room, '[b]:) ' + hooks.id + ' initialized! (using [link=http://blog.whiskers75.com/whiskchatapi/]WhiskChat Bot API[/link])[/b]', '77216F');
             console.log('[WhiskChat] [Bot API] Initialized!');
 	}, 2000);
     });

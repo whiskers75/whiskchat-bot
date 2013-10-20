@@ -4,7 +4,7 @@
    Feel free to customize!
 **/
 var WhiskChatLogic = {
-    id: 'StarterLogic', // The name of your bot's logic/code - like DiceLogic or FishingLogic
+    id: 'PeapLoveLogic', // The name of your bot's logic/code - like DiceLogic or FishingLogic
     creator: 'YourNameHere', // Your name
     room: 'main' // The room in which to run your bot
 };
@@ -13,8 +13,8 @@ var WhiskChatLogic = {
    Called whenever someone speaks.
 **/
 WhiskChatLogic.ChatHandler = function(chat) {
-    if (chat.message == '!test') {
-	WhiskChatLogic.chat('main', 'Got the test command!', '000');
+    if (chat.message == 'peapodamus') {
+	WhiskChatLogic.chat('main', '...is the best admin ever! <3', '000');
     }
 };
 /**
